@@ -5,6 +5,10 @@
 [![License](https://img.shields.io/cocoapods/l/ASNavigationBarKit.svg?style=flat)](https://cocoapods.org/pods/ASNavigationBarKit)
 [![Platform](https://img.shields.io/cocoapods/p/ASNavigationBarKit.svg?style=flat)](https://cocoapods.org/pods/ASNavigationBarKit)
 
+## TODO
+- Remove ReactiveX Dependency
+- Update Wiki guide
+
 ## Example
 
 
