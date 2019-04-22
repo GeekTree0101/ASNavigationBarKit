@@ -2,7 +2,8 @@ use_frameworks!
 
 target 'ASNavigationBarKit_Example' do
   pod 'ASNavigationBarKit', :path => '../'
-
+  pod 'Codextended'
+  
   target 'ASNavigationBarKit_Tests' do
     inherit! :search_paths
 

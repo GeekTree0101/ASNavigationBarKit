@@ -7,12 +7,14 @@ class MainViewController: ASViewController<ASDisplayNode> {
         case single
         case table
         case collection
+        case gmail
         
         var title: String {
             switch self {
             case .single: return "Single Screen"
             case .table: return "Table Screen"
             case .collection: return "Collection Screen"
+            case .gmail: return "Gmail Example"
             }
         }
     }
@@ -74,6 +76,9 @@ extension MainViewController: ASTableDelegate {
         case .collection?:
             self.navigationController?
                 .pushViewController(CollectionViewController.init(), animated: true)
+        case .gmail?:
+            self.navigationController?
+                .pushViewController(GmailListNodeController.init(), animated: true)
         default:
             return
         }

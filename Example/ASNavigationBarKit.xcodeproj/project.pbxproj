@@ -18,6 +18,12 @@
 		9BC1CE52226AD0A100B0692D /* FeedItemCellNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC1CE51226AD0A100B0692D /* FeedItemCellNode.swift */; };
 		9BC1CE55226AD1CB00B0692D /* URL+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC1CE54226AD1CB00B0692D /* URL+Extensions.swift */; };
 		9BC1CE58226C697700B0692D /* CommonNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC1CE57226C697700B0692D /* CommonNavigationBar.swift */; };
+		9BC1CE5C226D48E500B0692D /* GmailListNodeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC1CE5B226D48E500B0692D /* GmailListNodeController.swift */; };
+		9BC1CE5E226D4A3000B0692D /* GmailCellNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC1CE5D226D4A3000B0692D /* GmailCellNode.swift */; };
+		9BC1CE60226D4A5100B0692D /* GmailSearchBarNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC1CE5F226D4A5100B0692D /* GmailSearchBarNode.swift */; };
+		9BC1CE63226D4A8200B0692D /* Gmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC1CE62226D4A8200B0692D /* Gmail.swift */; };
+		9BC1CE66226D4C9300B0692D /* gmail_list.json in Resources */ = {isa = PBXBuildFile; fileRef = 9BC1CE65226D4C9300B0692D /* gmail_list.json */; };
+		9BC1CE68226D5EFB00B0692D /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC1CE67226D5EFB00B0692D /* UIColor+Extensions.swift */; };
 		ADEF403D35B2838C2DC1AC1E /* Pods_ASNavigationBarKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 364736C0182A49F5E87E1FC6 /* Pods_ASNavigationBarKit_Tests.framework */; };
 		F59BC5662D933750B8FBDFB0 /* Pods_ASNavigationBarKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627CAC821BAD5662CC383001 /* Pods_ASNavigationBarKit_Example.framework */; };
 /* End PBXBuildFile section */
@@ -56,6 +62,12 @@
 		9BC1CE51226AD0A100B0692D /* FeedItemCellNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItemCellNode.swift; sourceTree = "<group>"; };
 		9BC1CE54226AD1CB00B0692D /* URL+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Extensions.swift"; sourceTree = "<group>"; };
 		9BC1CE57226C697700B0692D /* CommonNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonNavigationBar.swift; sourceTree = "<group>"; };
+		9BC1CE5B226D48E500B0692D /* GmailListNodeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GmailListNodeController.swift; sourceTree = "<group>"; };
+		9BC1CE5D226D4A3000B0692D /* GmailCellNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GmailCellNode.swift; sourceTree = "<group>"; };
+		9BC1CE5F226D4A5100B0692D /* GmailSearchBarNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GmailSearchBarNode.swift; sourceTree = "<group>"; };
+		9BC1CE62226D4A8200B0692D /* Gmail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gmail.swift; sourceTree = "<group>"; };
+		9BC1CE65226D4C9300B0692D /* gmail_list.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = gmail_list.json; sourceTree = "<group>"; };
+		9BC1CE67226D5EFB00B0692D /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
 		BF6DEB252224EA76E39DE20A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -112,6 +124,8 @@
 		607FACD21AFB9204008FA782 /* Example for ASNavigationBarKit */ = {
 			isa = PBXGroup;
 			children = (
+				9BC1CE64226D4C8500B0692D /* Resources */,
+				9BC1CE61226D4A7900B0692D /* Models */,
 				9BC1CE56226C696900B0692D /* NavigationBar */,
 				9BC1CE53226AD1B800B0692D /* Extensions */,
 				9BC1CE50226AD09600B0692D /* Nodes */,
@@ -178,6 +192,7 @@
 				9BC1CE4A226ACB0100B0692D /* TableViewController.swift */,
 				9BC1CE4C226ACB0E00B0692D /* SingleViewController.swift */,
 				9BC1CE4E226ACB5400B0692D /* CollectionViewController.swift */,
+				9BC1CE5B226D48E500B0692D /* GmailListNodeController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -186,6 +201,7 @@
 			isa = PBXGroup;
 			children = (
 				9BC1CE51226AD0A100B0692D /* FeedItemCellNode.swift */,
+				9BC1CE5D226D4A3000B0692D /* GmailCellNode.swift */,
 			);
 			name = Nodes;
 			sourceTree = "<group>";
@@ -194,6 +210,7 @@
 			isa = PBXGroup;
 			children = (
 				9BC1CE54226AD1CB00B0692D /* URL+Extensions.swift */,
+				9BC1CE67226D5EFB00B0692D /* UIColor+Extensions.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -202,8 +219,25 @@
 			isa = PBXGroup;
 			children = (
 				9BC1CE57226C697700B0692D /* CommonNavigationBar.swift */,
+				9BC1CE5F226D4A5100B0692D /* GmailSearchBarNode.swift */,
 			);
 			name = NavigationBar;
+			sourceTree = "<group>";
+		};
+		9BC1CE61226D4A7900B0692D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9BC1CE62226D4A8200B0692D /* Gmail.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		9BC1CE64226D4C8500B0692D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9BC1CE65226D4C9300B0692D /* gmail_list.json */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -297,6 +331,7 @@
 			files = (
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				9BC1CE66226D4C9300B0692D /* gmail_list.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +377,7 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ASNavigationBarKit_Example/Pods-ASNavigationBarKit_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/ASNavigationBarKit/ASNavigationBarKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Codextended/Codextended.framework",
 				"${BUILT_PRODUCTS_DIR}/PINCache/PINCache.framework",
 				"${BUILT_PRODUCTS_DIR}/PINOperation/PINOperation.framework",
 				"${BUILT_PRODUCTS_DIR}/PINRemoteImage/PINRemoteImage.framework",
@@ -354,6 +390,7 @@
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ASNavigationBarKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Codextended.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINCache.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINOperation.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINRemoteImage.framework",
@@ -395,11 +432,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BC1CE63226D4A8200B0692D /* Gmail.swift in Sources */,
+				9BC1CE5E226D4A3000B0692D /* GmailCellNode.swift in Sources */,
 				607FACD81AFB9204008FA782 /* MainViewController.swift in Sources */,
+				9BC1CE68226D5EFB00B0692D /* UIColor+Extensions.swift in Sources */,
 				9BC1CE55226AD1CB00B0692D /* URL+Extensions.swift in Sources */,
+				9BC1CE60226D4A5100B0692D /* GmailSearchBarNode.swift in Sources */,
 				9BC1CE58226C697700B0692D /* CommonNavigationBar.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 				9BC1CE4D226ACB0E00B0692D /* SingleViewController.swift in Sources */,
+				9BC1CE5C226D48E500B0692D /* GmailListNodeController.swift in Sources */,
 				9BC1CE4B226ACB0100B0692D /* TableViewController.swift in Sources */,
 				9BC1CE52226AD0A100B0692D /* FeedItemCellNode.swift in Sources */,
 				9BC1CE4F226ACB5400B0692D /* CollectionViewController.swift in Sources */,
@@ -588,7 +630,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ASNavigationBarKit_Example.app/ASNavigationBarKit_Example";
 			};
 			name = Debug;
@@ -610,7 +652,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ASNavigationBarKit_Example.app/ASNavigationBarKit_Example";
 			};
 			name = Release;
